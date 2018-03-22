@@ -174,3 +174,8 @@ gT or :tabprev or :tabp # move to the previous tab
 :tabonly or :tabo       # close all tabs except for the current one
 :tabdo command          # run the command on all tabs (e.g. :tabdo q - closes all opened tabs)
 ```
+## Bonus
+* How to remove first n space from the multiple lines *
+- Enter visual block mode with Ctrl-V (or Ctrl-Q if you use Ctrl-V for paste);
+- Select the area to delete with the arrows;
+- Then press d to delete the selected area.
